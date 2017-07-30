@@ -1,5 +1,7 @@
 #include "Options.hpp"
 
+#include <iostream>
+
 #include "Application.hpp"
 #include "ActorManager.hpp"
 #include "StageManager.hpp"
@@ -69,7 +71,7 @@ void Options::draw() const {
 	al_draw_text(fBig, R::Color::SHADOWN_TITLE, 404, 24, ALLEGRO_ALIGN_CENTER, R::String::OPTIONS.c_str());
 	al_draw_text(fBig, R::Color::WHITE, 400, 20, ALLEGRO_ALIGN_CENTER, R::String::OPTIONS.c_str());
 
-	// Llama a la función draw() de cadá botón.	
+	// Llama a la función draw() de cadá botón.
 	for (auto it = buttons.begin(); it != buttons.end(); it++) {
 		(*it)->draw();
 	}
@@ -167,4 +169,5 @@ Options::~Options() {
 	delete controlManager;
 	delete actorManager;
 	delete stageManager;
+    std::cout << "Sali de options" << std::endl;
 }

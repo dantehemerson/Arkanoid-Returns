@@ -14,6 +14,8 @@ public:
 	static void setScore(int score);
 	static int getScore();
 
+	virtual ~Score();
+
 private:
 	static int scorePlayer;
 };

@@ -2,6 +2,7 @@
 
 #include <allegro5\allegro.h>
 #include <allegro5\allegro_font.h>
+#include <iostream>
 
 #include "Gallery.hpp"
 
@@ -31,4 +32,8 @@ void Score::setScore(int score) {
 }
 int Score::getScore() {
 	return scorePlayer;
+}
+
+Score::~Score() {
+	std::cout << "Ya sali del colset " << std::endl;
 }

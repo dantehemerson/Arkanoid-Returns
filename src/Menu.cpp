@@ -2,6 +2,9 @@
 
 #include <allegro5\allegro.h>
 #include <allegro5\allegro_primitives.h>
+#include <iostream>
+
+using namespace std;
 
 #include "Gallery.hpp"
 #include "Application.hpp"
@@ -148,6 +151,7 @@ void Menu::doAction(ControllableObject::action_t action, int magnitute) {
 				app->setInterface(Application::INTERFACE_SCREEN::ABOUT);
 				break;
 			case 5:	/*QUIT*/
+			    cout << "ES SALIR" << endl;
 				app->quit();
 				break;
 			default:

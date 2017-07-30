@@ -1,5 +1,6 @@
 #include "ActorManager.hpp"
 #include "Actor.hpp"
+#include <iostream>
 
 using namespace std;
 
@@ -62,7 +63,12 @@ void ActorManager::update() {
 }
 
 ActorManager::~ActorManager() {
+    int i = 0;
+    std::cout << "Tamaño : " << actors.size() << std::endl;
+    std::cout << "Una llamada a actor manager" << std::endl;
 	for (actorsIter = actors.begin(); actorsIter != actors.end(); actorsIter++) {
 		delete (*actorsIter);
+		std::cout << "Todo bien " << i++ << std::endl;
 	}
+	actors.clear();
 }

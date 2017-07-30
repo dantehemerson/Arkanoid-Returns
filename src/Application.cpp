@@ -7,6 +7,9 @@
 #include <allegro5\allegro_primitives.h>
 #include <allegro5\allegro_physfs.h>
 #include <physfs.h>
+#include <iostream>
+
+using namespace std;
 
 #include "R.hpp"
 #include "AllegroException.hpp"
@@ -24,14 +27,14 @@
 
 Application::Application() :
 display(nullptr),
-eventQueue(nullptr), 
+eventQueue(nullptr),
 timer(nullptr),
 actualInterface(nullptr),
 exit(false) {
 }
 
 void Application::init(int argc, char** argv) {
-	
+
 	if (!al_init()) {
 		throw AllegroException(R::String::ERROR_ALLEGRO_INIT);
 	}
@@ -81,6 +84,7 @@ void Application::init(int argc, char** argv) {
 	help = new Help(this);
 	options = new Options(this);
 	highScores = new HighScores(this);
+
 	game = new Game(this);
 
 	srand(static_cast<unsigned int>(time(NULL)));
@@ -130,7 +134,7 @@ void Application::setInterface(INTERFACE_SCREEN interfaceApp, bool reinit) {
 }
 
 void Application::quit() {
-	exit = false;
+	exit = true;
 }
 
 Keyboard* Application::getKeyboard() const {
@@ -152,6 +156,7 @@ Application::~Application() {
 	delete options;
 	delete highScores;
 	delete game;
+	cout << "Pase el error" << endl;
 	al_destroy_display(display);
 	al_destroy_event_queue(eventQueue);
 	al_destroy_timer(timer);

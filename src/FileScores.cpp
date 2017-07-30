@@ -12,13 +12,13 @@ using namespace std;
 
 /* Función para comparar y ordenar los puntajes.
 Ordenará de mayor a menor ya que asi se clasifican los puntajes de los jugadores.*/
-bool compare(Score a, Score b) {
+bool compare(ScorePlayer a, ScorePlayer b) {
 	return a.score > b.score;
 }
 
 const int FileScores::maxPlayers = 15; // Maximo numero de Puntajes de los jugadores que se guardarán en el archivo.
 const string FileScores::filename = "data/scores"; /*Ubicación del archivo de scores.*/
-list<Score> FileScores::listScores;
+list<ScorePlayer> FileScores::listScores;
 
 FileScores::FileScores(const float& x, const float& y) : Actor(x, y) {
 

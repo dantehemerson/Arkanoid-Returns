@@ -1,6 +1,7 @@
 #include "Game.hpp"
 
 #include <vector>
+#include <iostream>
 
 #include "Application.hpp"
 #include "ControlManager.hpp"
@@ -15,7 +16,7 @@
 #include "Mouse.hpp"
 #include "Ball.hpp"
 #include "Pause.hpp"
-#include "IntroductionLevel.hpp" 
+#include "IntroductionLevel.hpp"
 #include "Score.hpp"
 #include "GameOver.hpp"
 
@@ -74,7 +75,9 @@ showGameOver(false) {
 	introLevel = new IntroductionLevel(level);
 
 	actorManager->add(level);
+
 	actorManager->add(new Score);
+	
 	pauseGame = new Pause(100, 100, this, app->getMouse(), app->getKeyboard());
 	for (auto it = balls.begin(); it != balls.end(); it++) {
 		actorManager->add(*it);
@@ -202,6 +205,7 @@ void Game::over() {
 Game::~Game() {
 	delete controlManager;
 	delete actorManager;
+	std::cout << "Pase el error actor manager" << std::endl;
 	delete stageManager;
 	delete pauseGame;
 	delete introLevel;
