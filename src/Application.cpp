@@ -156,7 +156,6 @@ Application::~Application() {
 	delete options;
 	delete highScores;
 	delete game;
-	cout << "Pase el error" << endl;
 	al_destroy_display(display);
 	al_destroy_event_queue(eventQueue);
 	al_destroy_timer(timer);

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1501398476 source:c:\users\dante\documents\proyectos\games\arkanoid\main.cpp
+1501399320 source:c:\users\dante\documents\proyectos\games\arkanoid\main.cpp
 	"Application.hpp"
 	"AllegroException.hpp"
 	"Actor.hpp"
@@ -233,7 +233,7 @@
 
 1501392781 c:\users\dante\documents\proyectos\games\arkanoid\src\application.cpp
 
-1501397291 source:c:\users\dante\documents\proyectos\games\arkanoid\src\application.cpp
+1501399896 source:c:\users\dante\documents\proyectos\games\arkanoid\src\application.cpp
 	"Application.hpp"
 	<allegro5\allegro_image.h>
 	<allegro5\allegro_font.h>
@@ -257,7 +257,7 @@
 	"Game.hpp"
 	"Sound.hpp"
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\application.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\application.hpp
 	<allegro5\allegro.h>
 
 1362327500 c:\libs\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_image.h
@@ -284,7 +284,7 @@
 
 1291552216 c:\libs\allegro-5.0.10-mingw-4.7.0\include\physfs.h
 
-1501393621 c:\users\dante\documents\proyectos\games\arkanoid\src\r.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\r.hpp
 	<allegro5\allegro.h>
 	<allegro5\allegro_color.h>
 	<string>
@@ -293,86 +293,86 @@
 1372628332 c:\libs\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_color.h
 	"allegro5/allegro.h"
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\allegroexception.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\allegroexception.hpp
 	<string>
 	"Exception.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\exception.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\exception.hpp
 	<string>
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\gallery.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\gallery.hpp
 	<allegro5\allegro.h>
 	<allegro5\allegro_font.h>
 	<allegro5\allegro_audio.h>
 	<map>
 	"R.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\menu.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\menu.hpp
 	<vector>
 	"Interface.hpp"
 	"ControllableObject.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\interface.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\interface.hpp
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\controllableobject.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\controllableobject.hpp
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\peripheral.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\peripheral.hpp
 	<string>
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\keyboard.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\keyboard.hpp
 	<allegro5\allegro.h>
 	"Peripheral.hpp"
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\mouse.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\mouse.hpp
 	<allegro5\allegro.h>
 	<string>
 	<array>
 	"Peripheral.hpp"
 	"Vector2.hpp"
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\vector2.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\vector2.hpp
 	<iostream>
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\about.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\about.hpp
 	<vector>
 	"Interface.hpp"
 	"ControllableObject.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\help.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\help.hpp
 	<allegro5\allegro.h>
 	<vector>
 	"Interface.hpp"
 	"ControllableObject.hpp"
 	"Vector2.hpp"
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\options.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\options.hpp
 	<vector>
 	"Interface.hpp"
 	"ControllableObject.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\highscores.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\highscores.hpp
 	<vector>
 	"Interface.hpp"
 	"ControllableObject.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\game.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\game.hpp
 	"Interface.hpp"
 	"ControllableObject.hpp"
 	<vector>
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\sound.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\sound.hpp
 	<allegro5\allegro.h>
 	<allegro5\allegro_audio.h>
 	"R.hpp"
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\actor.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\actor.hpp
 	"Vector2.hpp"
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\resourcenotloaded.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\resourcenotloaded.hpp
 	<string>
 	"Exception.hpp"
 
-1501390077 source:c:\users\dante\documents\proyectos\games\arkanoid\src\about.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\about.cpp
 	"About.hpp"
 	"Application.hpp"
 	"ActorManager.hpp"
@@ -383,41 +383,41 @@
 	"Mouse.hpp"
 	"Keyboard.hpp"
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\actormanager.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\actormanager.hpp
 	<algorithm>
 	<list>
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\stagemanager.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\stagemanager.hpp
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\controlmanager.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\controlmanager.hpp
 	<vector>
 	"Control.hpp"
 	"Peripheral.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\control.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\control.hpp
 	<list>
 	<string>
 	"Peripheral.hpp"
 	"ControllableObject.hpp"
 
-1501393634 c:\users\dante\documents\proyectos\games\arkanoid\src\button.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\button.hpp
 	<allegro5\allegro_font.h>
 	<string>
 	"Actor.hpp"
 	"R.hpp"
 
-1501390077 source:c:\users\dante\documents\proyectos\games\arkanoid\src\actor.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\actor.cpp
 	"Actor.hpp"
 
-1501397415 source:c:\users\dante\documents\proyectos\games\arkanoid\src\actormanager.cpp
+1501399923 source:c:\users\dante\documents\proyectos\games\arkanoid\src\actormanager.cpp
 	"ActorManager.hpp"
 	"Actor.hpp"
 	<iostream>
 
-1501390077 source:c:\users\dante\documents\proyectos\games\arkanoid\src\allegroexception.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\allegroexception.cpp
 	"AllegroException.hpp"
 
-1501393677 source:c:\users\dante\documents\proyectos\games\arkanoid\src\ball.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\ball.cpp
 	"Ball.hpp"
 	<algorithm>
 	<stdio.h>
@@ -425,91 +425,91 @@
 	"Gallery.hpp"
 	"Utils.hpp"
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\ball.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\ball.hpp
 	"Actor.hpp"
 	"Vector2.hpp"
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\utils.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\utils.hpp
 	<string>
 
-1501390077 source:c:\users\dante\documents\proyectos\games\arkanoid\src\block.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\block.cpp
 	"Block.hpp"
 	"Gallery.hpp"
 	"Sprite.hpp"
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\block.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\block.hpp
 	<allegro5\allegro.h>
 	"Actor.hpp"
 	"Vector2.hpp"
 	"Bonus.hpp"
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\bonus.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\bonus.hpp
 	"Actor.hpp"
 	"Sprite.hpp"
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\sprite.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\sprite.hpp
 	<allegro5\allegro.h>
 	<vector>
 	"Frame.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\frame.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\frame.hpp
 	"Actor.hpp"
 	"R.hpp"
 
-1501390077 source:c:\users\dante\documents\proyectos\games\arkanoid\src\bonus.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\bonus.cpp
 	"Bonus.hpp"
 
-1501390077 source:c:\users\dante\documents\proyectos\games\arkanoid\src\border.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\border.cpp
 	"Border.hpp"
 	"BorderItem.hpp"
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\border.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\border.hpp
 	<vector>
 	"Actor.hpp"
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\borderitem.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\borderitem.hpp
 	"Actor.hpp"
 
-1501390077 source:c:\users\dante\documents\proyectos\games\arkanoid\src\borderitem.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\borderitem.cpp
 	"BorderItem.hpp"
 	<allegro5\allegro.h>
 	"Gallery.hpp"
 	"R.hpp"
 
-1501390077 source:c:\users\dante\documents\proyectos\games\arkanoid\src\bullet.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\bullet.cpp
 	"Bullet.hpp"
 	<allegro5\allegro.h>
 	"Gallery.hpp"
 
-1501390077 c:\users\dante\documents\proyectos\games\arkanoid\src\bullet.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\bullet.hpp
 	"Actor.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\button.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\button.cpp
 	"Button.hpp"
 	<allegro5\allegro_font.h>
 	"Gallery.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\control.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\control.cpp
 	"Control.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\controllableactor.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\controllableactor.cpp
 	"ControllableActor.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\controllableactor.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\controllableactor.hpp
 	"Actor.hpp"
 	"ControllableObject.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\controllableobject.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\controllableobject.cpp
 	"ControllableObject.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\controlmanager.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\controlmanager.cpp
 	<vector>
 	"ControlManager.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\exception.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\exception.cpp
 	"Exception.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\filescores.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\filescores.cpp
 	"FileScores.hpp"
 	<allegro5\allegro.h>
 	<allegro5\allegro_primitives.h>
@@ -517,16 +517,16 @@
 	<algorithm>
 	"Gallery.hpp"
 
-1501398240 c:\users\dante\documents\proyectos\games\arkanoid\src\filescores.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\filescores.hpp
 	<string>
 	<list>
 	"Actor.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\frame.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\frame.cpp
 	"Frame.hpp"
 	"Gallery.hpp"
 
-1501393700 source:c:\users\dante\documents\proyectos\games\arkanoid\src\gallery.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\gallery.cpp
 	"Gallery.hpp"
 	<stdexcept>
 	<stdio.h>
@@ -534,7 +534,7 @@
 	"ResourceNotLoaded.hpp"
 	"R.hpp"
 
-1501397806 source:c:\users\dante\documents\proyectos\games\arkanoid\src\game.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\game.cpp
 	"Game.hpp"
 	<vector>
 	<iostream>
@@ -555,13 +555,13 @@
 	"Score.hpp"
 	"GameOver.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\level.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\level.hpp
 	<vector>
 	<list>
 	"Actor.hpp"
 	"Block.hpp"
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\vaus.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\vaus.hpp
 	"ControllableActor.hpp"
 	"Sprite.hpp"
 	"Bullet.hpp"
@@ -569,31 +569,31 @@
 	<list>
 	<vector>
 
-1501390079 c:\users\dante\documents\proyectos\games\arkanoid\src\pause.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\pause.hpp
 	"ControllableActor.hpp"
 	<vector>
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\introductionlevel.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\introductionlevel.hpp
 	"Actor.hpp"
 	"Vector2.hpp"
 	"R.hpp"
 
-1501398089 c:\users\dante\documents\proyectos\games\arkanoid\src\score.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\score.hpp
 	"Actor.hpp"
 
-1501390078 c:\users\dante\documents\proyectos\games\arkanoid\src\gameover.hpp
+1501399321 c:\users\dante\documents\proyectos\games\arkanoid\src\gameover.hpp
 	"Actor.hpp"
 	"Vector2.hpp"
 	"R.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\gameover.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\gameover.cpp
 	"GameOver.hpp"
 	<allegro5\allegro_font.h>
 	<allegro5\allegro_primitives.h>
 	"Gallery.hpp"
 	"R.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\help.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\help.cpp
 	"Help.hpp"
 	<allegro5\allegro_primitives.h>
 	"Application.hpp"
@@ -605,7 +605,7 @@
 	"Mouse.hpp"
 	"Keyboard.hpp"
 
-1501397601 source:c:\users\dante\documents\proyectos\games\arkanoid\src\highscores.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\highscores.cpp
 	"HighScores.hpp"
 	<allegro5\allegro_primitives.h>
 	<iostream>
@@ -619,11 +619,11 @@
 	"Keyboard.hpp"
 	"FileScores.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\interface.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\interface.cpp
 	"Interface.hpp"
 	"Application.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\introductionlevel.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\introductionlevel.cpp
 	"IntroductionLevel.hpp"
 	<allegro5\allegro_font.h>
 	<allegro5\allegro_primitives.h>
@@ -631,11 +631,11 @@
 	"R.hpp"
 	"Level.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\keyboard.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\keyboard.cpp
 	<iostream>
 	"Keyboard.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\level.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\level.cpp
 	"Level.hpp"
 	<allegro5\allegro.h>
 	<allegro5\allegro_font.h>
@@ -648,7 +648,7 @@
 	"Sound.hpp"
 	"Gallery.hpp"
 
-1501397582 source:c:\users\dante\documents\proyectos\games\arkanoid\src\menu.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\menu.cpp
 	"Menu.hpp"
 	<allegro5\allegro.h>
 	<allegro5\allegro_primitives.h>
@@ -664,11 +664,11 @@
 	"Keyboard.hpp"
 	"Sound.hpp"
 
-1501390078 source:c:\users\dante\documents\proyectos\games\arkanoid\src\mouse.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\mouse.cpp
 	<allegro5\allegro.h>
 	"Mouse.hpp"
 
-1501396686 source:c:\users\dante\documents\proyectos\games\arkanoid\src\options.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\options.cpp
 	"Options.hpp"
 	<iostream>
 	"Application.hpp"
@@ -680,7 +680,7 @@
 	"Mouse.hpp"
 	"Keyboard.hpp"
 
-1501390079 source:c:\users\dante\documents\proyectos\games\arkanoid\src\pause.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\pause.cpp
 	"Pause.hpp"
 	<allegro5\allegro_primitives.h>
 	"Button.hpp"
@@ -693,42 +693,42 @@
 	"Keyboard.hpp"
 	"Sound.hpp"
 
-1501390079 source:c:\users\dante\documents\proyectos\games\arkanoid\src\peripheral.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\peripheral.cpp
 	"Peripheral.hpp"
 
-1501390079 source:c:\users\dante\documents\proyectos\games\arkanoid\src\r.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\r.cpp
 	"R.hpp"
 
-1501390079 source:c:\users\dante\documents\proyectos\games\arkanoid\src\resourcenotloaded.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\resourcenotloaded.cpp
 	"ResourceNotLoaded.hpp"
 
-1501397928 source:c:\users\dante\documents\proyectos\games\arkanoid\src\score.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\score.cpp
 	"Score.hpp"
 	<allegro5\allegro.h>
 	<allegro5\allegro_font.h>
 	<iostream>
 	"Gallery.hpp"
 
-1501390079 source:c:\users\dante\documents\proyectos\games\arkanoid\src\sound.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\sound.cpp
 	"Sound.hpp"
 	"Gallery.hpp"
 
-1501390079 source:c:\users\dante\documents\proyectos\games\arkanoid\src\sprite.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\sprite.cpp
 	"Sprite.hpp"
 	"Actor.hpp"
 
-1501390079 source:c:\users\dante\documents\proyectos\games\arkanoid\src\stagemanager.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\stagemanager.cpp
 	<allegro5\allegro.h>
 	"StageManager.hpp"
 	"ActorManager.hpp"
 	"Actor.hpp"
 
-1501393816 source:c:\users\dante\documents\proyectos\games\arkanoid\src\utils.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\utils.cpp
 	"Utils.hpp"
 	<sstream>
 	<math.h>
 
-1501390079 source:c:\users\dante\documents\proyectos\games\arkanoid\src\vaus.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\vaus.cpp
 	"Vaus.hpp"
 	"Mouse.hpp"
 	"Ball.hpp"
@@ -738,6 +738,6 @@
 	"Sound.hpp"
 	"Level.hpp"
 
-1501390079 source:c:\users\dante\documents\proyectos\games\arkanoid\src\vector2.cpp
+1501399321 source:c:\users\dante\documents\proyectos\games\arkanoid\src\vector2.cpp
 	"Vector2.hpp"
 
