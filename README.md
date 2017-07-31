@@ -16,7 +16,7 @@ Descarga los binarios de allegro 5 desde [Aquí](https://www.allegro.cc/files/)
 ![Allegro](docs/screenshots/2_allegro_install.PNG)
 
 ### 3.- Extraer
-Una vez descargado los binarios de allegro5 vamos a extraer los archivos en una carpeta, yo lo extraigo en **C:\Libs\\**, pero **puedes extraerlo donde quieras**.
+Una vez descargado los binarios de allegro5 vamos a extraer los archivos en una carpeta, yo lo extraigo en **C:\Libs\\**, pero **puedes extraerlo dónde quieras**.
 
 ![Extraer](docs/screenshots/3_extraer.png)
 
@@ -34,12 +34,16 @@ git clone https://github.com/dantehemerson/Arkanoid-Returns.git
 Ahora vamos dentro de la carpeta principal del proyecto(**Arkanoid/**) y ejecutamos el 
 archivo **Arkanoid Returns.cbp** con CodeBlocks.  
 También puedes hacer esto desde codeblocks :
-		**File > Open >** y nos vamos a la carpeta donde descargamos el proyecto y seleccionamos **Arkanoid Returns.cbp**
+		**Fi
+		le > Open >** y nos vamos a la carpeta donde descargamos el proyecto y seleccionamos **Arkanoid Returns.cbp**
 
 ### 6.- Configurando el proyecto 
-Una vez abierto el proyecto en C::B en el área **Management**  
-damos **click derecho** en el proyecto y luego **click** en **Build Options**
+Una vez abierto el proyecto en C::B en el área **Management** damos **click derecho** en el proyecto y luego **click** en **Build Options**
 
 ![Extraer](docs/screenshots/6_config_proyect_1.png)
+![Extraer](docs/screenshots/6_config_proyect_2.png)
+![Extraer](docs/screenshots/6_config_proyect_3.png)
+![Extraer](docs/screenshots/6_config_proyect_4.png)
+
 
 
