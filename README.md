@@ -1,6 +1,8 @@
-# Arkanoid-Returns
-Juego Arkanoid hecho en C++ con ayuda de la librería Allegro 5 
+# Arkanoid Returns (Un Remake del juego Arkanoid)
 
-Este es un juego arcade muy divertido.
+Juego Arkanoid hecho en C++ con ayuda de la librería Allegro 5.
 
-###Trata de romper bloques con una pelota gana el que no pierde.
+
+## Instalación
+
+1.- Lo primero que debes hacer es descargar el IDE CodeBlocks lo puedes hacer desde ésta página : (http://www.codeblocks.org/downloads/26)
