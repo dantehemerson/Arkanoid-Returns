@@ -13,7 +13,7 @@ Luego de descargar el instalador lo ejecutas y sigues la típica instalación de
 ### 2 .- Allegro 5
 Descarga los binarios de allegro 5 desde [Aquí](https://www.allegro.cc/files/)
 
-![Allegro](docs/screenshots/1_c_b_install.png)
+![Allegro](docs/screenshots/2_allegro_install.PNG)
 
 ### 3.- Extraer
 Una vez descargado los binarios de allegro 5 vamos a extraer los archivolos archivos en una carpeta, yo lo extraigo en **C:\Libs\\**, pero **puedes extraerlo donde quieras**.
