@@ -31,11 +31,15 @@ git clone https://github.com/dantehemerson/Arkanoid-Returns.git
 **ó puedes descargarlo desde github en la opcion Clone or Download>Dowload Zip**
 
 ### 5.- Abriendo el proyecto
-Ahora nos vamos dentro de la carpeta principal del proyecto(**Arkanoid/**) y ejecutamos el 
-archivo **Arkanoid Returns.cbp** con codeblocks.
+Ahora vamos dentro de la carpeta principal del proyecto(**Arkanoid/**) y ejecutamos el 
+archivo **Arkanoid Returns.cbp** con CodeBlocks.  
 También puedes hacer esto desde codeblocks :
 		**File > Open >** y nos vamos a la carpeta donde descargamos el proyecto y seleccionamos **Arkanoid Returns.cbp**
 
+### 6.- Configurando el proyecto 
+Una vez abierto el proyecto en C::B en el área **Management**  
+damos **click derecho** en el proyecto y luego **click** en **Build Options**
 
+![Extraer](docs/screenshots/6_config_proyect_1.png)
 
 
