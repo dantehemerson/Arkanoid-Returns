@@ -21,7 +21,20 @@ Una vez descargado los binarios de allegro 5 vamos a extraer los archivolos arch
 ![Extraer](docs/screenshots/3_extraer.png)
 
 ### 4.- Descargar el proyecto
+Para descargar el proyecto podemos hacerlo de clonando el repositorio o descargando los archivos desde github.
 
+Clonando el proyecto : 
+~~~
+git clone https://github.com/dantehemerson/Arkanoid-Returns.git
+~~~
+
+**ó puedes descargarlo desde github en la opcion Clone or Download>Dowload Zip**
+
+### 5.- Abriendo el proyecto
+Ahora nos vamos dentro de la carpeta principal del proyecto(**Arkanoid/**) y ejecutamos el 
+archivo **Arkanoid Returns.cbp** con codeblocks.
+También puedes hacer esto desde codeblocks :
+		**File > Open >** y nos vamos a la carpeta donde descargamos el proyecto y seleccionamos **Arkanoid Returns.cbp**
 
 
 
