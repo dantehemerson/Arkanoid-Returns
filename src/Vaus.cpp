@@ -40,7 +40,7 @@ lives(4) {
 	sprites[static_cast<size_t>(VausState::LARGE)].addFrame(R::Image::PADDLE, 0, 132, 66, 22, ticks, true);
 	sprites[static_cast<size_t>(VausState::LARGE)].addFrame(R::Image::PADDLE, 0, 110, 66, 22, ticks, true);
 
-	// NormalToLarge 
+	// NormalToLarge
 	sprites[static_cast<size_t>(VausState::NORMAL_TO_LARGE)].addFrame(R::Image::PADDLE, 0, 0, 44, 22, ticks, true);
 	sprites[static_cast<size_t>(VausState::NORMAL_TO_LARGE)].addFrame(R::Image::PADDLE, 210, 132, 46, 22, ticksL, true);
 	sprites[static_cast<size_t>(VausState::NORMAL_TO_LARGE)].addFrame(R::Image::PADDLE, 206, 110, 50, 22, ticksL, true);
@@ -84,7 +84,7 @@ lives(4) {
 	sprites[static_cast<size_t>(VausState::NORMAL_TO_CHARGED)].addFrame(R::Image::PADDLE, 146, 220, 44, 22, ticks, true);
 
 
-	// Charged to normal es lo mismo que normal To charged pero en orden inverso, ojo esto podria mejorarse si 
+	// Charged to normal es lo mismo que normal To charged pero en orden inverso, ojo esto podria mejorarse si
 	// se crea una función para ir de adelante hacia atras en el sprite.
 	sprites[static_cast<size_t>(VausState::CHARGED_TO_NORMAL)].addFrame(R::Image::PADDLE, 146, 220, 44, 22, ticks, true);
 	sprites[static_cast<size_t>(VausState::CHARGED_TO_NORMAL)].addFrame(R::Image::PADDLE, 148, 198, 42, 22, ticks, true);
@@ -203,7 +203,7 @@ lives(4) {
 	sprites[static_cast<size_t>(VausState::DEAD_CHARGED)].addFrame(R::Image::PADDLE, 299, 654, 121, 49, ticks, false, 0, -13);
 	sprites[static_cast<size_t>(VausState::DEAD_CHARGED)].addFrame(R::Image::PADDLE, 682, 963, 122, 22, ticksAfter, false); /*Trasparente*/
 
-										
+
 	ticks = 1; /*Animación revivir*/
 	sprites[static_cast<size_t>(VausState::RELIVE_ANIMATION)].addFrame(R::Image::PADDLE, 682, 963, 88, 22, 10, false);
 	sprites[static_cast<size_t>(VausState::RELIVE_ANIMATION)].addFrame(R::Image::PADDLE, 0, 848, 88, 22, ticks);
@@ -238,7 +238,7 @@ void Vaus::draw() const {
 }
 
 void Vaus::update() {
-	
+
 	sprites[static_cast<size_t>(state)].update();
 	switch (state) {
 		case VausState::NORMAL_TO_LARGE:
@@ -269,7 +269,7 @@ void Vaus::update() {
 				state = VausState::NORMAL;
 			}
 			break;
-	
+
 		default:
 			break;
 	}
@@ -277,10 +277,11 @@ void Vaus::update() {
 	// Actualiza las balas
 	for (auto it = bullets.begin(); it != bullets.end(); it++) {
 		it->update();
+		if(it->position.Y() <= 0) { // Acá se elminan las balas cuando ya no se muestran en la ventana
+            it = bullets.erase(it);
+		}
 	}
-
 	collisionWhitBall();
-
 	if (isDead()) {
 		if (sprites[static_cast<size_t>(state)].animationFinish()) {
 			if (lives < 1) {
