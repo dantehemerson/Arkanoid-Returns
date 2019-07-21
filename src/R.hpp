@@ -12,7 +12,7 @@ namespace R {
 	namespace Constant {
 
 		// Frames por segundo.
-		static const int FPS = 90;
+		static const int FPS = 60;
 		static const int SIZE_FONT_VENUS_18 = 18;
 		static const int SIZE_FONT_VENUS_20 = 20;
 		static const int SIZE_FONT_VENUS_TITLES = 60;
@@ -28,10 +28,10 @@ namespace R {
 	namespace String {
 		static const std::string WINDOW_TITLE = "Arkanoid";
 		static const std::string ERROR_INSTALL_KEYBOARD = "Error al instalar el teclado.";
-		static const std::string ERROR_ALLEGRO_INIT = "Error al iniciar la librearía Allegro";
+		static const std::string ERROR_ALLEGRO_INIT = "Error al iniciar la librearÃ­a Allegro";
 
-		static const std::string ERROR_INSTALL_MOUSE = "Error al instalar el ratón";
-		static const std::string ERROR_INSTALL_AUDIO = "Error al instalar el periférico de audio.";
+		static const std::string ERROR_INSTALL_MOUSE = "Error al instalar el ratÃ³n";
+		static const std::string ERROR_INSTALL_AUDIO = "Error al instalar el perifÃ©rico de audio.";
 		static const std::string ERROR_INSTALL_PHYSICS = "Error al iniciar physics.";
 		static const std::string ERROR_ABRIR_FICHERO_RECURSOS = "Error al abrir el fichero de recursos.";
 
@@ -90,14 +90,14 @@ namespace R {
 		static const ALLEGRO_COLOR GITHUB = al_color_html("#8B368C");
 
 
-		/* ? - Esto no funcióna la transparencia*/
+		/* ? - Esto no funciÃ³na la transparencia*/
 		//static const ALLEGRO_COLOR BACKGROUND_ABOUT_TRANSPARENT = al_map_rgba(125, 215, 215, 255);
 
 		static const ALLEGRO_COLOR BACKGROUND_ABOUT_TRANSPARENT = al_map_rgba_f(0.4, 0.4, 0.4, 0.5);
 		static const ALLEGRO_COLOR BACKGROUND_HIGHSCORE_TRANSPARENT = al_map_rgba_f(0.3, 0.3, 0.3, 0.5);
 		static const ALLEGRO_COLOR TRANSPARENTS = al_map_rgba_f(0.0, 0.0, 0.0, 0.0);
 
-		/* Declaro y no funcióna talvéz es por static */
+		/* Declaro y no funciÃ³na talvÃ©z es por static */
 		static const ALLEGRO_COLOR BACKGROUND_STARTING = al_map_rgba(50, 50, 50, 150);
 		static const ALLEGRO_COLOR BACKGROUND_LOSING = al_map_rgba(80, 0, 0, 150);
 		static const ALLEGRO_COLOR SHADOW_GRAY = al_color_html("#8d8b8f");
