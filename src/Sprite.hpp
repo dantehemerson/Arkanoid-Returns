@@ -3,7 +3,7 @@
 #ifndef SPRITE_HPP
 #define SPRITE_HPP
 
-#include <allegro5\allegro.h>
+#include <allegro5/allegro.h>
 
 #include <vector>
 
@@ -19,17 +19,17 @@ public:
 
 	void reinit();
 
-	/* True si la animación a finalizado, False de otro modo. Esto solo funciona
+	/* True si la animaciï¿½n a finalizado, False de otro modo. Esto solo funciona
 	si repeat es false.*/
 	bool animationFinish() const;
-	/* Establece el dueño del sprite, esto es principalmente para obtener la posición
-	en la que se pintará el sprite. */
+	/* Establece el dueï¿½o del sprite, esto es principalmente para obtener la posiciï¿½n
+	en la que se pintarï¿½ el sprite. */
 	void setOwner(Actor* owner);
 
 	/*Establece si el sprite se repite en bucles. */
 	void setRepeat(bool repeat);
 
-	/* Recibe los datos para un nuevo frame y añade al vector de frames. */
+	/* Recibe los datos para un nuevo frame y aï¿½ade al vector de frames. */
 	void addFrame(R::Image idImage, const float sx, const float sy, const float width,
 		const float height, int ticks, bool invert = false, const float xDesp = 0.0f, const float yDesp = 0.0f);
 

@@ -1,7 +1,7 @@
 #include "FileScores.hpp"
 
-#include <allegro5\allegro.h>
-#include <allegro5\allegro_primitives.h>
+#include <allegro5/allegro.h>
+#include <allegro5/allegro_primitives.h>
 
 #include <fstream>
 #include <algorithm>
@@ -10,14 +10,14 @@
 
 using namespace std;
 
-/* Función para comparar y ordenar los puntajes.
-Ordenará de mayor a menor ya que asi se clasifican los puntajes de los jugadores.*/
+/* Funciï¿½n para comparar y ordenar los puntajes.
+Ordenarï¿½ de mayor a menor ya que asi se clasifican los puntajes de los jugadores.*/
 bool compare(ScorePlayer a, ScorePlayer b) {
 	return a.score > b.score;
 }
 
-const int FileScores::maxPlayers = 15; // Maximo numero de Puntajes de los jugadores que se guardarán en el archivo.
-const string FileScores::filename = "data/scores"; /*Ubicación del archivo de scores.*/
+const int FileScores::maxPlayers = 15; // Maximo numero de Puntajes de los jugadores que se guardarï¿½n en el archivo.
+const string FileScores::filename = "data/scores"; /*Ubicaciï¿½n del archivo de scores.*/
 list<ScorePlayer> FileScores::listScores;
 
 FileScores::FileScores(const float& x, const float& y) : Actor(x, y) {
@@ -120,6 +120,6 @@ void FileScores::pushScore(int score, int level, string name) {
 }
 
 FileScores::~FileScores() {
-	// Al finalizar el programa se llamará a la función saveScores() para guardar los puntajes en el archivo.
+	// Al finalizar el programa se llamarï¿½ a la funciï¿½n saveScores() para guardar los puntajes en el archivo.
 	saveScores();
 }

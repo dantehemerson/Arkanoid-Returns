@@ -3,7 +3,7 @@
 #ifndef BLOCK_HPP
 #define BLOCK_HPP
 
-#include <allegro5\allegro.h>
+#include <allegro5/allegro.h>
 
 #include "Actor.hpp"
 #include "Vector2.hpp"
@@ -37,31 +37,31 @@ public:
 	void setBonusType(BonusType bonus);
 	BonusType getBonusType() const;
 
-	/*Retorna el valor que se añadira al puntaje cuando el bloque sea destruido.*/
+	/*Retorna el valor que se aï¿½adira al puntaje cuando el bloque sea destruido.*/
 	int getValue() const;
 
 	void setCoord(int x, int y);
 
-	/*El bloque pierde una vida si es que es del tipo Silver, de lo contrario desaparéce porque
+	/*El bloque pierde una vida si es que es del tipo Silver, de lo contrario desaparï¿½ce porque
 	las vidas del bloque es 0. */
 	void die();
 
-	/* Posición desde la que se iniciara a pintar, es el mismo para todos.*/
+	/* Posiciï¿½n desde la que se iniciara a pintar, es el mismo para todos.*/
 	static Vector2 referencePosition;
 
 	~Block();
 private:
 	void initType();
 
-	Sprite* sprite;/* Animación cuando la pelota choca con un bloque de tipo gold o silver.*/
+	Sprite* sprite;/* Animaciï¿½n cuando la pelota choca con un bloque de tipo gold o silver.*/
 
-				   // Posiciónes en el BITMAP para tomar sólo una parte.
-	Vector2 initPos; // Posición inicial
+				   // Posiciï¿½nes en el BITMAP para tomar sï¿½lo una parte.
+	Vector2 initPos; // Posiciï¿½n inicial
 	Vector2 dimen; /* Ancho y alto, esto es igual para todos, los valores son diferentes
-					que al llamar a las funciónes getWidth y getHeight de esta clase,
-					ya que al pintar se muestra también la sombra. */
+					que al llamar a las funciï¿½nes getWidth y getHeight de esta clase,
+					ya que al pintar se muestra tambiï¿½n la sombra. */
 
-	short lives; // Vidas del bloque.- Es 2 para el tipo Silver y 1 para el resto, a excepción de Gold(Este nunca muere).
+	short lives; // Vidas del bloque.- Es 2 para el tipo Silver y 1 para el resto, a excepciï¿½n de Gold(Este nunca muere).
 	BlockType type;
 	BonusType bonusType; // Bonus si es que tiene
 

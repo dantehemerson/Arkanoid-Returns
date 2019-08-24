@@ -1,7 +1,7 @@
 #include "Level.hpp"
 
-#include <allegro5\allegro.h>
-#include <allegro5\allegro_font.h>
+#include <allegro5/allegro.h>
+#include <allegro5/allegro_font.h>
 
 #include <fstream>
 
@@ -125,7 +125,7 @@ void Level::update() {
 	for (auto it = blocks.begin(); it != blocks.end(); it++) {
 		(*it)->update();
 
-		/* Colisión con las balas. */
+		/* Colisiï¿½n con las balas. */
 		for (auto itBullet = vaus->bullets.begin(); itBullet != vaus->bullets.end(); ) {
 
 
@@ -159,7 +159,7 @@ void Level::update() {
 
 
 		if ((*it)->getLives() > 0) {
-			/* Colisión Pelotas*/
+			/* Colisiï¿½n Pelotas*/
 			for (auto itBall = balls->begin(); itBall != balls->end(); itBall++) {
 				if ((*itBall)->enable()) {
 
@@ -276,7 +276,7 @@ void Level::clearBlocks() {
 }
 
 
-/* Para la animación */
+/* Para la animaciï¿½n */
 void Level::show() {
 	showLvl = true;
 }
@@ -319,7 +319,7 @@ void Level::loadLevel() {
 		int randIndex;
 		int randType;
 		/* Lleando algunos bloques con items bonus */
-		for (size_t i = 1; i <= blocks.size() / 3; i++) { // serán 24 
+		for (size_t i = 1; i <= blocks.size() / 3; i++) { // serï¿½n 24 
 			randIndex = rand() % blocks.size();
 			if (blocks.at(randIndex)->getBonusType() == BonusType::NONE) {
 				randType = rand() % 7;

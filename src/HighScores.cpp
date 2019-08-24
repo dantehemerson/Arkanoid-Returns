@@ -1,6 +1,6 @@
 #include "HighScores.hpp"
 
-#include <allegro5\allegro_primitives.h>
+#include <allegro5/allegro_primitives.h>
 
 #include <iostream>
 #include "Application.hpp"
@@ -19,7 +19,7 @@ controlManager(nullptr),
 actorManager(nullptr),
 stageManager(nullptr) {
 
-	/*Botones que tendrá esta interface. */
+	/*Botones que tendrï¿½ esta interface. */
 	buttons.push_back(new Button(89, 50, "BACK", ButtonType::SMALL));
 
 	controlManager = new ControlManager;
@@ -27,7 +27,7 @@ stageManager(nullptr) {
 	stageManager = new StageManager(actorManager);
 
 	Control* control = new Control;
-	/* Asigna acciónes a las que respondera esta interface. */
+	/* Asigna acciï¿½nes a las que respondera esta interface. */
 	control->addActionName(ActionMenu::DOWN, "Bajar");
 	control->addActionName(ActionMenu::UP, "Subir");
 	control->addActionName(ActionMenu::ENTER, "Enter");
@@ -59,7 +59,7 @@ stageManager(nullptr) {
 	file->loadScores();
 	actorManager->add(file);
 
-	index = 0; // Inicialmente el foco estará en el primer boton que se agrego al vector buttons.
+	index = 0; // Inicialmente el foco estarï¿½ en el primer boton que se agrego al vector buttons.
 	buttons.at(index)->isFocused(true);
 	useMouse = true;
 }
@@ -79,7 +79,7 @@ void HighScores::draw() const {
 	al_draw_text(fBig, R::Color::SHADOWN_TITLE, 404, 24, ALLEGRO_ALIGN_CENTER, R::String::HIGHSCORES.c_str());
 	al_draw_text(fBig, R::Color::WHITE, 400, 20, ALLEGRO_ALIGN_CENTER, R::String::HIGHSCORES.c_str());
 
-	// Llama a la función draw() de cadá botón.
+	// Llama a la funciï¿½n draw() de cadï¿½ botï¿½n.
 	for (auto it = buttons.begin(); it != buttons.end(); it++) {
 		(*it)->draw();
 	}

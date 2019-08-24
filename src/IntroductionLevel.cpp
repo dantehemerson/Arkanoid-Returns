@@ -1,7 +1,7 @@
 #include "IntroductionLevel.hpp"
 
-#include <allegro5\allegro_font.h>
-#include <allegro5\allegro_primitives.h>
+#include <allegro5/allegro_font.h>
+#include <allegro5/allegro_primitives.h>
 
 #include "Gallery.hpp"
 #include "R.hpp"

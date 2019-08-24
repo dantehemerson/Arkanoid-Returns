@@ -2,7 +2,7 @@
 #ifndef MOUSE_HPP
 #define MOUSE_HPP
 
-#include <allegro5\allegro.h>
+#include <allegro5/allegro.h>
 #include <string>
 #include <array>
 
@@ -47,7 +47,7 @@ public:
 		return lastPosition.Y();
 	}
 
-	/// Esto no debería pertenecer acá pero por el momento lo dejaré aquí. 
+	/// Esto no debería pertenecer acá pero por el momento lo dejaré aquí.
 	void updateLastPosition();
 
 	/**  Retorna true si lastPosition es diferente de la posición actual del cursor del mouse, es decir

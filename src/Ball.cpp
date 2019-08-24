@@ -2,7 +2,8 @@
 
 #include <algorithm>
 #include <stdio.h>
-#include <allegro5\allegro.h>
+#include <cmath>
+#include <allegro5/allegro.h>
 
 
 #include "Gallery.hpp"
@@ -50,8 +51,8 @@ void Ball::setDirectionHorizontal(int dir) {
 void Ball::generateAngle(int a, int b) {
 
 	int anguloAleatorio = (rand() % (max(a, b) - min(a, b) + 1)) + min(a, b);
-	displacement.setX(abs(cos(Utils::degressToRad(anguloAleatorio))));
-	displacement.setY(abs(sin(Utils::degressToRad(anguloAleatorio))));
+	displacement.setX(std::abs(std::cos(Utils::degressToRad(anguloAleatorio))));
+	displacement.setY(std::abs(std::sin(Utils::degressToRad(anguloAleatorio))));
 	printf("angle=%d  disp = (%f, %f) degRad = %f\n", anguloAleatorio, displacement.X(), displacement.Y(), Utils::degressToRad(anguloAleatorio));
 }
 void Ball::setDirectionVertical(int dir) {

@@ -1,7 +1,7 @@
 #include "GameOver.hpp"
 
-#include <allegro5\allegro_font.h>
-#include <allegro5\allegro_primitives.h>
+#include <allegro5/allegro_font.h>
+#include <allegro5/allegro_primitives.h>
 
 #include "Gallery.hpp"
 #include "R.hpp"
@@ -42,7 +42,7 @@ void GameOver::update() {
 		finish = true;
 	}
 
-	// Hacer cierra telón con la imagen de fondo.
+	// Hacer cierra telï¿½n con la imagen de fondo.
 
 
 

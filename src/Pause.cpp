@@ -1,6 +1,6 @@
 #include "Pause.hpp"
 
-#include <allegro5\allegro_primitives.h>
+#include <allegro5/allegro_primitives.h>
 
 #include "Button.hpp"
 #include "Mouse.hpp"

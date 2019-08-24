@@ -3,7 +3,7 @@
 #ifndef KEYBOARD_HPP
 #define KEYBOARD_HPP
 
-#include <allegro5\allegro.h>
+#include <allegro5/allegro.h>
 
 #include "Peripheral.hpp"
 

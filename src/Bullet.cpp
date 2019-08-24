@@ -1,6 +1,6 @@
 #include "Bullet.hpp"
 
-#include <allegro5\allegro.h>
+#include <allegro5/allegro.h>
 
 #include "Gallery.hpp"
 

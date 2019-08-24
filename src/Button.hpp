@@ -2,7 +2,7 @@
 #ifndef BUTTON_HPP
 #define BUTTON_HPP
 
-#include <allegro5\allegro_font.h>
+#include <allegro5/allegro_font.h>
 
 #include <string>
 

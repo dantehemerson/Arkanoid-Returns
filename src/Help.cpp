@@ -1,10 +1,10 @@
 #include "Help.hpp"
 
-// Ancho y Alto del Bitmap en el que se dibujarán los items
+// Ancho y Alto del Bitmap en el que se dibujarï¿½n los items
 #define WIDTH_ITEMS_BMP 800	
 #define HEIGHT_ITEMS_BMP 1000
 
-#include <allegro5\allegro_primitives.h>
+#include <allegro5/allegro_primitives.h>
 
 #include "Application.hpp"
 #include "ActorManager.hpp"
@@ -24,7 +24,7 @@ velocityScroll(3) {
 
 	showArrowBottom = true; showArrowTop = false;
 
-	/*Botones que tendrá esta interface. */
+	/*Botones que tendrï¿½ esta interface. */
 	buttons.push_back(new Button(89, 50, R::String::BACK, ButtonType::SMALL));
 
 	controlManager = new ControlManager;
@@ -32,7 +32,7 @@ velocityScroll(3) {
 	stageManager = new StageManager(actorManager);
 
 	Control* control = new Control;
-	/* Asigna acciónes a las que respondera esta interface. */
+	/* Asigna acciï¿½nes a las que respondera esta interface. */
 	control->addActionName(ActionMenu::DOWN, "Bajar");
 	control->addActionName(ActionMenu::UP, "Subir");
 	control->addActionName(ActionMenu::ENTER, "Enter");
@@ -60,22 +60,22 @@ velocityScroll(3) {
 	for (auto it = buttons.begin(); it != buttons.end(); it++) {
 		actorManager->add(*it);
 	}
-	index = 0; // Inicialmente el foco estará en el primer boton que se agrego al vector buttons.
+	index = 0; // Inicialmente el foco estarï¿½ en el primer boton que se agrego al vector buttons.
 	buttons.at(index)->isFocused(true);
 	useMouse = true;
 	itemsBMP = al_create_bitmap(WIDTH_ITEMS_BMP, HEIGHT_ITEMS_BMP);
 
 	/*Dibujando en el bitmap --------------------------------------------------------*/
-	al_set_target_bitmap(itemsBMP); // Desde aca lo que dibujemos se dibujará en el bitmap
+	al_set_target_bitmap(itemsBMP); // Desde aca lo que dibujemos se dibujarï¿½ en el bitmap
 	al_clear_to_color(R::Color::TRANSPARENTS);
 
-	/* Dibuja la información de Ayuda en el Bitmap itemsBMP, de esta manera ya no será necesario
-	llamar a dibujar cada uno si no que solo se llamará a el BITMAP.*/
+	/* Dibuja la informaciï¿½n de Ayuda en el Bitmap itemsBMP, de esta manera ya no serï¿½ necesario
+	llamar a dibujar cada uno si no que solo se llamarï¿½ a el BITMAP.*/
 	drawItems();
 	al_set_target_backbuffer(app->getDisplay()); // Ahora todo lo que dibujemos sera en display
 												 /*----------------------------------------------------------------------------------*/
 
-												 // Posición inicial de itemsBMP
+												 // Posiciï¿½n inicial de itemsBMP
 	positionItemsBMP = Vector2(120, 100);
 }
 
@@ -144,11 +144,11 @@ void Help::doAction(action_t action, int magnitute) {
 	switch (action) {
 	case ActionMenu::UP:
 		positionItemsBMP.setY(positionItemsBMP.Y() + velocityScroll);
-		helpPosition(); // Verifica si la posición de itemsBMP esta en el rango correcto.
+		helpPosition(); // Verifica si la posiciï¿½n de itemsBMP esta en el rango correcto.
 		break;
 	case ActionMenu::DOWN:
 		positionItemsBMP.setY(positionItemsBMP.Y() - velocityScroll);
-		helpPosition(); // Verifica si la posición de itemsBMP esta en el rango correcto.
+		helpPosition(); // Verifica si la posiciï¿½n de itemsBMP esta en el rango correcto.
 
 		break;
 	case ActionMenu::ENTER:
@@ -190,7 +190,7 @@ void Help::doAction(action_t action, int magnitute) {
 			al_set_system_mouse_cursor(app->getDisplay(), ALLEGRO_SYSTEM_MOUSE_CURSOR_LINK);
 			//if (difference)
 			positionItemsBMP.setY(app->getMouse()->getY() + difference);
-			helpPosition(); // Verifica si la posición de itemsBMP esta en el rango correcto.
+			helpPosition(); // Verifica si la posiciï¿½n de itemsBMP esta en el rango correcto.
 		}
 		else {
 			difference = 0;

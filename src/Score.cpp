@@ -1,7 +1,7 @@
 #include "Score.hpp"
 
-#include <allegro5\allegro.h>
-#include <allegro5\allegro_font.h>
+#include <allegro5/allegro.h>
+#include <allegro5/allegro_font.h>
 #include <iostream>
 
 #include "Gallery.hpp"

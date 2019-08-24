@@ -2,7 +2,7 @@
 #ifndef APPLICATION_HPP
 #define APPLICATION_HPP
 
-#include <allegro5\allegro.h>
+#include <allegro5/allegro.h>
 
 class Interface;
 class Menu;
@@ -17,12 +17,12 @@ class Game;
 
 class Application {
 public:
-	enum class INTERFACE_SCREEN : unsigned int { 
-		MAIN_MENU, 
-		GAME, 
-		ABOUT, 
-		OPTIONS, 
-		HELP, 
+	enum class INTERFACE_SCREEN : unsigned int {
+		MAIN_MENU,
+		GAME,
+		ABOUT,
+		OPTIONS,
+		HELP,
 		HIGHSCORES };
 
 	Application();
@@ -55,7 +55,7 @@ private:
 	ALLEGRO_EVENT event;
 	Interface* actualInterface;
 
-	// Interfaces : 
+	// Interfaces :
 	Menu* menu;	 // Menu Principal
 	Options* options; // Menu de opciones.
 	HighScores* highScores;	// Muestra los puntajes más altos.

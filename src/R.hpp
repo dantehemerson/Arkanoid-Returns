@@ -2,8 +2,8 @@
 #ifndef R_HPP
 #define R_HPP
 
-#include <allegro5\allegro.h>
-#include <allegro5\allegro_color.h>
+#include <allegro5/allegro.h>
+#include <allegro5/allegro_color.h>
 
 #include <string>
 #include <array>
