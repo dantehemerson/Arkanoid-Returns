@@ -63,7 +63,7 @@ void About::draw() const {
 	static auto fBig = gallery.getFont(R::Font::VENUS_TITLES);
 
 	/*Fondo*/
-	al_draw_bitmap(gallery.getImage(R::Image::BACKGROUND1), 0, 0, 0);
+//	al_draw_bitmap(gallery.getImage(R::Image::BACKGROUND1), 0, 0, 0);
 
 	/*Logo Arkanoid*/
 	al_draw_scaled_bitmap(gallery.getImage(R::Image::ARKANOID_LOGO), 0, 0, 600, 218, 265, 120, 270, 98, NULL);
