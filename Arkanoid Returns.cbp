@@ -15,8 +15,22 @@
 					<Add option="-std=c++11" />
 					<Add option="-g" />
 					<Add directory="../../../../../usr/include/allegro5" />
+					<Add directory="src" />
 				</Compiler>
 				<Linker>
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_acodec.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_audio.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_color.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_dialog.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_font.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_image.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_main.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_memfile.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_physfs.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_primitives.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_ttf.so" />
+					<Add library="../../../../../lib/x86_64-linux-gnu/liballegro_video.so" />
 					<Add directory="../../../../../usr/lib/x86_64-linux-gnu" />
 					<Add directory="src" />
 				</Linker>
