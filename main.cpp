@@ -1,8 +1,8 @@
-#include "Application.hpp"
-#include "AllegroException.hpp"
-#include "Actor.hpp"
-#include "Application.hpp"
-#include "ResourceNotLoaded.hpp"
+#include "src/Application.hpp"
+#include "src/AllegroException.hpp"
+#include "src/Actor.hpp"
+#include "src/Application.hpp"
+#include "src/ResourceNotLoaded.hpp"
 
 int main(int argc, char** argv) {
 	{
