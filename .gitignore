@@ -2,7 +2,7 @@
 *.depend
 *.layout
 
-# El archivo .cbp si lo incluí, para los que quieran utilizar codeblocks, 
+# El archivo .cbp si lo incluí, para los que quieran utilizar codeblocks,
 # que es el IDE en el que  hice el proyecto, ahí ya esta todo configurado
 # solo faltaría linkear con la libreria allegro.
 
@@ -44,3 +44,10 @@
 *.out
 *.app
 /bin
+
+
+
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
