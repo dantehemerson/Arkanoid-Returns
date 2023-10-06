@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(ArkanoidReturns)  # Replace "YourProjectName" with your project's name
+project(ArkanoidReturns)
 
 # Set C++ standard to C++11
 set(CMAKE_CXX_STANDARD 11)
@@ -14,14 +14,26 @@ file(GLOB_RECURSE SOURCES "src/*.cpp")
 # Add the header files
 file(GLOB_RECURSE HEADERS "src/*.hpp")
 
+# Specify the path to main.cpp (assuming it's in the root folder)
+set(MAIN_SOURCE "main.cpp")
+
 # Create the executable
-add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+add_executable(${PROJECT_NAME} ${MAIN_SOURCE} ${SOURCES} ${HEADERS})
 
 # Include the Allegro 5 directory for header files
 target_include_directories(${PROJECT_NAME} PRIVATE ${ALLEGRO5_INCLUDE_DIRS})
 
 # Link Allegro 5 library (you might not need this line)
-# target_link_libraries(${PROJECT_NAME} PRIVATE allegro)
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    allegro
+    allegro_color
+    allegro_font
+    allegro_ttf
+    allegro_primitives
+    allegro_image
+    allegro_audio
+    allegro_acodec
+)
 
 # Specify any other dependencies if needed.
 
