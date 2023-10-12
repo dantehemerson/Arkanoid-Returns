@@ -14,7 +14,7 @@ controlManager(nullptr),
 actorManager(nullptr),
 stageManager(nullptr) {
 
-	/*Botones que tendrá esta interface. */
+	/*Botones que tendrï¿½ esta interface. */
 	buttons.push_back(new Button(89, 50, R::String::BACK, ButtonType::SMALL));
 	buttons.push_back(new Button(400, 392, R::String::GITHUB, ButtonType::GITHUB));
 
@@ -23,7 +23,7 @@ stageManager(nullptr) {
 	stageManager = new StageManager(actorManager);
 
 	Control* control = new Control;
-	/* Asigna acciónes a las que respondera esta interface. */
+	/* Asigna acciï¿½nes a las que respondera esta interface. */
 	control->addActionName(ActionMenu::DOWN, "Bajar");
 	control->addActionName(ActionMenu::UP, "Subir");
 	control->addActionName(ActionMenu::ENTER, "Enter");
@@ -50,7 +50,7 @@ stageManager(nullptr) {
 	for (auto it = buttons.begin(); it != buttons.end(); it++) {
 		actorManager->add(*it);
 	}
-	index = 0; // Inicialmente el foco estará en el primer boton que se agrego al vector buttons.
+	index = 0; // Inicialmente el foco estarï¿½ en el primer boton que se agrego al vector buttons.
 	buttons.at(index)->isFocused(true);
 
 	useMouse = true;
@@ -90,7 +90,7 @@ void About::draw() const {
 	/*Copyright*/
 	al_draw_text(fSmall, R::Color::WHITE, 400, 565, ALLEGRO_ALIGN_CENTER, R::String::COPYRIGHT.c_str());
 
-	/*Función draw de cada botón*/
+	/*Funciï¿½n draw de cada botï¿½n*/
 	for (auto it = buttons.begin(); it != buttons.end(); it++) {
 		(*it)->draw();
 	}
@@ -101,7 +101,7 @@ void About::update() {
 	controlManager->update();
 	stageManager->update();
 
-	/*Si el mouse cambio de posición entonces el usuario quiere usar el mouse entonces
+	/*Si el mouse cambio de posiciï¿½n entonces el usuario quiere usar el mouse entonces
 	el booleano useMouse es verdadero.*/
 	if (app->getMouse()->changedPosition()) {
 		useMouse = true;
@@ -125,15 +125,15 @@ void About::update() {
 void About::doAction(action_t action, int magnitute) {
 	buttons.at(index)->isFocused(false);
 	switch (action) {
-		/* Las teclas UP y LEFT tienen la misma función. */
+		/* Las teclas UP y LEFT tienen la misma funciï¿½n. */
 	case ActionMenu::UP:
 	case ActionMenu::LEFT:
-		/*Si el foco estuvo en el primer botón entonces el foco se ubica en el último botón.*/
+		/*Si el foco estuvo en el primer botï¿½n entonces el foco se ubica en el ï¿½ltimo botï¿½n.*/
 		index = (index + buttons.size() - 1) % buttons.size();
 		useMouse = false;
 		break;
 
-		/* Acá igualmente estas dos teclas tienen la misma función. */
+		/* Acï¿½ igualmente estas dos teclas tienen la misma funciï¿½n. */
 	case ActionMenu::DOWN:
 	case ActionMenu::RIGHT:
 		index = (index + 1) % buttons.size();
@@ -169,8 +169,8 @@ void About::doAction(action_t action, int magnitute) {
 	buttons.at(index)->isFocused(true);
 }
 
-/*Si el mouse se encuentra dentro de una región ocupado por un botón del vector buttons
-entonces retorna el indice del botón en el vector, de lo contrario retorna (-1). */
+/*Si el mouse se encuentra dentro de una regiï¿½n ocupado por un botï¿½n del vector buttons
+entonces retorna el indice del botï¿½n en el vector, de lo contrario retorna (-1). */
 int About::insideButton() const {
 	for (size_t i = 0; i < buttons.size(); i++) {
 		if (app->getMouse()->inside(buttons.at(i)->getXInit(), buttons.at(i)->getYInit(), buttons.at(i)->getXEnd(), buttons.at(i)->getYEnd())) {
